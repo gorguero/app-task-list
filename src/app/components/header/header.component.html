@@ -1,7 +1,12 @@
-<header class="container">
+<header>
 
     <h1>{{title}}</h1>
 
-    
+    <app-button 
+        color="red" 
+        text="Add Task"
+        (btnClick)="toggleAddTask()"
+        >
+    </app-button>
 
 </header>
