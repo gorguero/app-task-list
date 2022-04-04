@@ -21,4 +21,15 @@ export class TasksComponent implements OnInit {
     });
   }
 
+  deleteTask(task:Task){
+    this.taskService.deleteTask(task).subscribe(() => {
+      this.tasks = this.tasks.filter( tarea => tarea.id !== task.id);
+    });
+  }
+
+  toggleReminder(task:Task){
+    task.reminder = !task.reminder;
+    console.log(task)
+  }
+
 }
