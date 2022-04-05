@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Terminar primer modulo de Angular",
+      "day": "Agosto 5 a las 12:00",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Terminar primer modulo de Angular",
+      "day": "Agosto 5 a las 12:00",
+      "reminder": true
+    },
+    {
+      "id": 4,
+      "text": "Terminar primer modulo de Angular",
+      "day": "Agosto 5 a las 12:00",
+      "reminder": false
+    },
+    {
+      "id": 5,
+      "text": "Terminar primer modulo de Angular",
+      "day": "Agosto 5 a las 12:00",
+      "reminder": true
+    },
+    {
+      "text": "Mover compost",
+      "day": "Mañana",
+      "reminder": true,
+      "id": 6
+    },
+    {
+      "text": "sarasa",
+      "day": "sarasaa",
+      "reminder": false,
+      "id": 8
+    }
+  ]
+}
